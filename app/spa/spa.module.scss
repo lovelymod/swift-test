@@ -1,0 +1,61 @@
+.container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  padding-top: 80px;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 16px;
+
+    .formTitle {
+      display: inline-block;
+      width: 170px;
+      margin: 0 8px;
+    }
+
+    .formFirstname {
+      display: inline-block;
+      width: 300px;
+      margin: 0 8px;
+    }
+    .formLastname {
+      display: inline-block;
+      width: 300px;
+      margin: 0 8px;
+    }
+    .formBirthday {
+      display: inline-block;
+      margin: 0 8px;
+    }
+    .formNationality {
+      display: inline-block;
+      width: 180px;
+      margin: 0 8px;
+    }
+    .formCitizenId {
+      display: inline-block;
+      width: 100px;
+      margin: 0;
+    }
+    .formPhone {
+      width: 100px;
+      display: inline-block;
+      margin: 0;
+    }
+    .formPhoneNumber {
+      width: 200px;
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}

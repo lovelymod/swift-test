@@ -1,0 +1,114 @@
+.container {
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 4px;
+    border-radius: 999px;
+    margin-bottom: 0px;
+  }
+
+  .boxBtn {
+    cursor: pointer;
+    padding: 8px;
+    transition: filter linear 150ms;
+    border-radius: 16px;
+    background: gainsboro;
+    &:hover {
+      filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+        drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    }
+    .triangleTop {
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid var(--primary-color);
+      transition: border-bottom linear 150ms;
+    }
+    .triangleBottom {
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid var(--primary-color);
+      transition: border-top linear 150ms;
+    }
+
+    .triangleLeft {
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      border-right: 100px solid var(--primary-color);
+      transition: border-right linear 150ms;
+    }
+
+    .triangleRight {
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      border-left: 100px solid var(--primary-color);
+      transition: border-left linear 150ms;
+    }
+
+    &:hover {
+      .triangleTop {
+        border-bottom: 100px solid var(--primary-color);
+      }
+      .triangleBottom {
+        border-top: 100px solid var(--primary-color);
+      }
+      .triangleLeft {
+        border-right: 100px solid var(--primary-color);
+      }
+      .triangleRight {
+        border-left: 100px solid var(--primary-color);
+      }
+    }
+  }
+
+  .boxShape {
+    cursor: pointer;
+    transition: background-color linear 150ms;
+    padding: 8px;
+    border-radius: 8px;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+      drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    &:hover {
+      background-color: gainsboro;
+    }
+    .shape1 {
+      width: 100px;
+      height: 100px;
+      background-color: var(--primary-color);
+    }
+    .shape2 {
+      width: 200px;
+      height: 100px;
+      background-color: var(--primary-color);
+    }
+    .shape3 {
+      width: 100px;
+      height: 100px;
+      border-radius: 999px;
+      background-color: var(--primary-color);
+    }
+    .shape4 {
+      width: 200px;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid var(--primary-color);
+    }
+    .shape5 {
+      width: 200px;
+      height: 100px;
+      border-radius: 99999px;
+      background-color: var(--primary-color);
+    }
+    .shape6 {
+      width: 200px;
+      height: 100px;
+      transform: skew(20deg);
+      background-color: var(--primary-color);
+    }
+  }
+}

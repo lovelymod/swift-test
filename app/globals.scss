@@ -1,0 +1,21 @@
+$orange: #ffa200;
+$green: #6eda78;
+
+:root {
+  --primary-color: #{$orange};
+  --secondary-color: #{$green};
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background: linear-gradient(
+    20deg,
+    var(--secondary-color),
+    var(--secondary-color),
+    var(--primary-color)
+  );
+}

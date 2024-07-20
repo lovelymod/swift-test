@@ -1,0 +1,44 @@
+{
+  "home_title": "เลือกแบบทดสอบ",
+  "layout_title": "Layout และ Shape",
+  "spa_title": "แบบทดสอบ SPA",
+
+  "move_left": "ขยับไปทางซ้าย",
+  "move_swap": "สลับบนล่าง",
+  "move_right": "ขยับไปทางขวา",
+
+  "form_require": "กรุณากรอก ",
+  "form_title": "คำนำหน้า",
+  "Mr.": "นาย",
+  "Mrs.": "นาง",
+  "Ms.": "นางสาว",
+  "form_firstname": "ชื่อ",
+  "form_lastname": "นามสกุล",
+  "form_birthday": "วันเกิด",
+  "form_birthday_placeholder": "ปี-เดือน-วัน",
+  "form_nationality": "สัญชาติ",
+  "thai": "ไทย",
+  "japan": "ญี่ปุ่น",
+  "korea": "เกาหลี",
+  "form_citizenId": "เลขบัตรประชาชน",
+  "form_gender": "เพศ",
+  "male":"ชาย",
+  "female":"หญิง",
+  "form_phone": "โทรศัพท์มือถือ",
+  "form_passport": "หนังสือเดินทาง",
+  "form_salary": "เงินเดือนที่คาดหวัง",
+  "form_submit": "ส่งข้อมูล",
+  "form_reset": "ล้างข้อมูล",
+
+  "table_title": "ชื่อ นามสกุล",
+  "table_gender": "เพศ",
+  "table_phone": "โทรศัพท์มือถือ",
+  "table_nation": "สัญชาติ",
+  "table_action":"คำสั่ง",
+  "table_action_edit":"แก้ไข",
+  "table_action_delete":"ลบ",
+  "select_all":"เลือกทั้งหมด",
+  "delete_all":"ลบที่เลือก"
+
+  
+}

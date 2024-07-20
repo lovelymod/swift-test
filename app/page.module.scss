@@ -1,0 +1,23 @@
+.container {
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  
+  .card {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: var(--primary-color);
+    transition: filter linear 150ms;
+    text-decoration: none;
+    &:hover {
+      filter:  drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    }
+    .title{
+      font-size: 18px;
+      font-weight: 500;
+      color: #000;
+    }
+  }
+}
